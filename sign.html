@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./sign.css" />
+    <title>Sign Up or Sign In</title>
+</head>
+<body>
+    <h1>Sign Up.. Sign In... </h1>
+    <form action="/" method="POST">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter Your Name " required 
+		/><br /><br />
+		<label>Email:</label>
+		 <input type="email" name="email" placeholder="Enter Your Email" required
+         /><br/><br/>
+         <label>Pasword:</label>
+         <input type="password" name="password" placeholder="Enter Your Password" required
+         /><br/><br />
+         <label>Confirm Password:</label>
+         <input type="password" name="confirm" placeholder="Conform Your Password" required
+         /><br/><br/>
+        <label>Gender:</label>
+        <br /> <br /> 
+        <input type="radio" name="gender" value="male" checked >Male <br />
+        <input type="radio" name="gender" value="female" >Female <br />
+		<input type="radio" name="gender" value="other"  >Other</br></br>
+		<label for="bdaymonth">Birthday (month and year):</label>
+  <input type="month" id="bdaymonth" name="bdaymonth">
+		
+    </fieldset>
+    <fieldset>
+        <label>Check ALL that apply</label><br/><br/>
+
+        <input type="checkbox" name="tech" value="html">HTML<br/>
+        <input type="checkbox" name="tech" value="css">CSS <br/>
+        <input type="checkbox" name="tech" value="java">JavaScript<br/>
+        <input type="checkbox" name="tech" value="bootstrap">Bootstrap<br/>
+        <input type="checkbox" name="tech" value="react">React
+    </fieldset>
+	<button style="padding: 10px; margin-top: 20px;"><A href="./index.html">Sign Up</a></button>
+		<button style="padding: 10px; margin-top: 20px;"><a href="./index.html">Sign In</a></button>
+    </form>
+</body>
+</html>

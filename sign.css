@@ -1,0 +1,8 @@
+body {
+	text-align: center;
+	background-color: darkcyan;
+}
+form {
+	display: inline-block;
+	background-color: #fafafa;
+}
